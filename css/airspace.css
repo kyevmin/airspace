@@ -144,9 +144,9 @@ font header .navbar-default .navbar-nav li a:hover {
   text-align: center;
   padding: 90px 0;
 }
-#intro .service-item {
+/* #intro .service-item {
   padding-bottom: 30px;
-}
+} */
 #intro .service-item i {
   font-size: 60px;
   color: #4A4656;
