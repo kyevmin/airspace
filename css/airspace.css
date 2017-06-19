@@ -152,7 +152,7 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #4A4656;
 }
 #intro .service-item h4 {
-  padding-top: 10px; /*it was 20px*/
+  padding-top: 20px; /*it was 20px*/
   margin: 0;
   color: #666;
 }
@@ -161,7 +161,7 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 10px;
   margin: 0;
   font-size: 14px;
-  line-height: 1.2; /*it was 1.8*/
+  line-height: 1.8; /*it was 1.8*/
 }
 /*--
 	call-to-action Start
