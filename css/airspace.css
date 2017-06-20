@@ -169,14 +169,13 @@ font header .navbar-default .navbar-nav li a:hover {
     border-radius: 100px;
 }
 /*--
-	call-to-action Start
+	ПРЕДОСТАВЛЯЕМЫЕ УСЛУГИ
 --*/
-#service {
+#service section-title {
   text-align: center;
-  padding: 90px 0;
 }
 #services-second-line {
-   top-padding: 50px;
+   margin-top: 50px;
 }
 /*--
 	Feature Start
