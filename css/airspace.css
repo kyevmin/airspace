@@ -176,6 +176,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #service .section-title {
   text-align: center;
+  vertical-align: middle;
 }
 #service img {
    padding: 0;
