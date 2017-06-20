@@ -171,13 +171,18 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	ПРЕДОСТАВЛЯЕМЫЕ УСЛУГИ
 --*/
+#service {
+  background-color: #F5F5F5;
+}
 #service .section-title {
   text-align: center;
 }
 #service img {
-   margin: 0 auto;
    padding: 0;
    border-radius: 7px;
+}
+#service .services-photos {
+   margin-top: 25%;
 }
 #services-second-line {
    margin-top: 50px;
