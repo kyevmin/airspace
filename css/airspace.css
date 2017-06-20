@@ -175,8 +175,9 @@ font header .navbar-default .navbar-nav li a:hover {
   background-color: #F5F5F5;
 }
 #service .section-title {
+  margin: 0 auto;
+  padding: 2% 0 3% 0;
   text-align: center;
-  vertical-align: middle;
 }
 #service img {
    padding: 0;
