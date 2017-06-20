@@ -171,8 +171,11 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	ПРЕДОСТАВЛЯЕМЫЕ УСЛУГИ
 --*/
-#service section-title {
+#service .section-title {
   text-align: center;
+}
+#service img {
+   vertical-align: middle;
 }
 #services-second-line {
    margin-top: 50px;
