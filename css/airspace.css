@@ -563,7 +563,8 @@ font header .navbar-default .navbar-nav li a:hover {
   padding: 40px 0px;
 }
 .carousel-inner .item {
-text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 /*---------------------------------------------
 					Work Close
