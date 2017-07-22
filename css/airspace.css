@@ -585,6 +585,10 @@ font header .navbar-default .navbar-nav li a:hover {
   box-shadow: 0 1px 30px rgba(0,0,0,.4);
   transition: 400ms ease;
 }
+
+.portfolio h1 {
+  text-align: center;
+}
 /*---------------------------------------------
 					Work Close
 -----------------------------------------------*/
@@ -636,9 +640,7 @@ font header .navbar-default .navbar-nav li a:hover {
   word-spacing: 3px;
 }
 
-#call-to-action h1 {
-  text-align: center;
-}
+
 /*--
 	contact-form Start
 --*/
