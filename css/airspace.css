@@ -635,6 +635,10 @@ font header .navbar-default .navbar-nav li a:hover {
   letter-spacing: 1px;
   word-spacing: 3px;
 }
+
+#call-to-action h1 {
+  text-align: center;
+}
 /*--
 	contact-form Start
 --*/
