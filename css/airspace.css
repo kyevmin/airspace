@@ -586,7 +586,7 @@ font header .navbar-default .navbar-nav li a:hover {
   max-width: 800px;
 }
 
-.portfolio section.slider {
+.portfolio .slider {
   width: 800px;
   margin: 5% auto;
 }
