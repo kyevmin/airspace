@@ -212,30 +212,57 @@ permalink: /work/
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-	      <div class="col-md-2">
-	          <div class="w3-left" onclick="plusDivs(-1)">&#10094;</div>
-	      </div>
+	      <div class="col-md-2"></div>
 	      <div class="col-md-8">
 		      
-	         <div class="w3-content w3-display-container">
-		  
-                    <img class="mySlides" src="{{ site.baseurl }}/js/portfolio-slider/dist/images/large/1.JPG">
-                    <img class="mySlides" src="{{ site.baseurl }}/js/portfolio-slider/dist/images/large/2.jpg">
-                    <img class="mySlides" src="{{ site.baseurl }}/js/portfolio-slider/dist/images/large/3.jpg">
-	          
-                  <div class="w3-center w3-display-bottommiddle" style="width:100%">
-                                                  
-		    <span class="w3-badge demo w3-border" onclick="currentDiv(1)"></span>
-                    <span class="w3-badge demo w3-border" onclick="currentDiv(2)"></span>
-                    <span class="w3-badge demo w3-border" onclick="currentDiv(3)"></span>
-			  
-		 </div>	  
-                 </div>
+	      
+                     <section class="slider">
+                       <div class="flexslider">
+                            <ul class="slides">
+                                 <li>
+  	    	                    <img src="{{ site.baseurl }}/js/portfolio-slider/dist/images/large/1.JPG" />
+                                       <div class="flex-caption">
+                                          <span class="date">Thursday, July 16, 2015</span>
+                                          <h1>Adventurer Cheesecake Brownie</h1>
+                                          <p>Eu solum mazim sit, elitr utroque at vim. An nam vide solet saepe, eam in erant equidem omittantur. Brute postulant ocurreret sed cu, id eum malis saperet argumentum, adhuc everti ad mei.
+                                          </p>
+                                       </div>
+                                       <div class="card-outmore">
+                                          <h5>Read more</h5>
+                                          <i id="outmore-icon" class="fa fa-angle-right"></i>
+                                       </div>
+  	     	                 </li>
+  	    		         <li>
+  	    	                    <img src="{{ site.baseurl }}/js/portfolio-slider/dist/images/large/2.jpg" />
+         <div class="flex-caption">
+           <span class="date">Thursday, July 16, 2015</span>
+           <h1>Lorem ipsum dolor sit amet at sed essent maiorum</h1>
+           <p>Eu solum mazim sit, elitr utroque at vim. An nam vide solet saepe, eam in erant equidem omittantur. Brute postulant ocurreret sed cu, id eum malis saperet argumentum, adhuc everti ad mei. Intellegat moderatius voluptatibus ad mei.</p>
+         </div>
+         <div class="card-outmore">
+              <h5>Read more</h5>
+              <i id="outmore-icon" class="fa fa-angle-right"></i>
+          </div>
+  	    		</li>
+  	    		<li>
+  	    	   <img src="{{ site.baseurl }}/js/portfolio-slider/dist/images/large/3.jpg" />
+         <div class="flex-caption">
+           <span class="date">Thursday, July 16, 2015</span>
+           <h1>Gubergren rationibus sea at etiam nostrud reprimique ne vim</h1>
+           <p>Eu solum mazim sit, elitr utroque at vim. An nam vide solet saepe, eam in erant equidem omittantur. Brute postulant ocurreret sed cu, id eum malis saperet argumentum, adhuc everti ad mei. Intellegat moderatius voluptatibus ad mei.</p>
+         </div>
+         <div class="card-outmore">
+              <h5>Read more</h5>
+              <i id="outmore-icon" class="fa fa-angle-right"></i>
+         </div>
+  	    		</li>
+     </ul>
+    </div>
+ </section>
+</a>
 	      
 	      </div>
-	      <div class="col-md-2">
-	          <div class="w3-right" onclick="plusDivs(1)">&#10095;</div>
-	      </div>
+	      <div class="col-md-2"></div>
          
 	
 	      	      
@@ -245,21 +272,15 @@ permalink: /work/
 </section>
 
 <script type="text/javascript">
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-    showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    if (n > x.length) {slideIndex = 1} 
-    if (n < 1) {slideIndex = x.length} ;
-    for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none"; 
-    }
-    x[slideIndex-1].style.display = "block"; 
-}
+$(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
 </script>
