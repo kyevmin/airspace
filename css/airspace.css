@@ -581,12 +581,14 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 .flexslider {
+  margin: 0 0 10px 0;
   border: 0px solid #ffffff;
   box-shadow: 0 1px 30px rgba(0,0,0,.4);
   transition: 400ms ease;
 }
 
 .portfolio h1 {
+  padding: 10px 0;	
   text-align: center;
 }
 /*---------------------------------------------
