@@ -208,7 +208,7 @@ permalink: /work/
 
 
 <!-- Call to action Start Переделываю в обычный слайдер -->
-<section id="call-to-action">
+<section id="call-to-action" class="portfolio" >
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -216,9 +216,9 @@ permalink: /work/
 	      <div class="col-md-8">
 		      
 	      
-                     <section class="portfolio-slider">
-                       <div class="portfolio-flexslider">
-                            <ul class="portfolio-slides">
+                     <section class="slider">
+                       <div class="flexslider">
+                            <ul class="slides">
                                  <li>
   	    	                    <img src="{{ site.baseurl }}/js/portfolio-slider/dist/images/large/1.JPG" />
                                        <div class="flex-caption">
@@ -276,7 +276,7 @@ $(function(){
       SyntaxHighlighter.all();
     });
     $(window).load(function(){
-      $('.portfolio-flexslider').flexslider({
+      $('.flexslider').flexslider({
         animation: "slide",
         start: function(slider){
           $('body').removeClass('loading');
