@@ -562,9 +562,8 @@ font header .navbar-default .navbar-nav li a:hover {
   display: inline-block;
   padding: 40px 0px;
 }
-#call-to-action .portfolio-photos{
-    margin-left: auto;
-    margin-right: auto;
+#myCarousel {
+    margin: 0 0;
 }
 /*---------------------------------------------
 					Work Close
