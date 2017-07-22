@@ -577,7 +577,7 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #777;
 }
 
-li.css a {
+.portfolio li.css a {
       border-radius: 0;
 }
 
@@ -586,7 +586,7 @@ li.css a {
   max-width: 800px;
 }
 
-section.slider {
+.portfolio section.slider {
   width: 800px;
   margin: 5% auto;
 }
